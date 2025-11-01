@@ -1,65 +1,138 @@
-import Image from "next/image";
+import Link from "next/link";
+import Hero from "./components/Hero";
+import Section from "./components/Section";
+import Card from "./components/Card";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <Hero
+        title="Bienvenido a Ventosa de la Sierra"
+        subtitle="Descubre un rincón único en la provincia de Soria, donde naturaleza, historia y tradición se encuentran"
+        cta={{ text: "Planifica tu visita", href: "/turismo" }}
+      />
+
+      {/* Destacados */}
+      <Section>
+        <h2 className="mb-8 text-center text-3xl font-bold text-gray-900">
+          Descubre Ventosa
+        </h2>
+        <div className="grid gap-6 md:grid-cols-3">
+          <Card
+            title="Rutas y Naturaleza"
+            description="Explora nuestras rutas de senderismo y descubre paisajes únicos en la Sierra de Soria."
+            href="/turismo"
+            tag="Turismo"
+            image="/images/rutas.jpg"
+          />
+          <Card
+            title="Historia y Patrimonio"
+            description="Conoce nuestra iglesia románica y el rico patrimonio histórico de Ventosa."
+            href="/historia"
+            tag="Cultura"
+            image="/images/iglesia.jpg"
+          />
+          <Card
+            title="Agenda de Eventos"
+            description="Descubre las fiestas, eventos culturales y actividades que organizamos."
+            href="/agenda"
+            tag="Eventos"
+            image="/images/eventos.jpg"
+          />
+        </div>
+      </Section>
+
+      {/* Cómo llegar */}
+      <Section className="bg-gray-50">
+        <div className="grid gap-8 md:grid-cols-2">
+          <div>
+            <h2 className="mb-4 text-3xl font-bold text-gray-900">
+              Cómo llegar
+            </h2>
+            <p className="mb-4 text-gray-600">
+              Ventosa de la Sierra se encuentra en plena Sierra de Soria, a tan
+              solo 25 km de la capital soriana. Un lugar fácilmente accesible
+              por carretera y bien comunicado con las principales ciudades de la
+              región.
+            </p>
+            <ul className="mb-6 space-y-2 text-gray-600">
+              <li className="flex items-start">
+                <span className="mr-2 mt-1 text-emerald-600">✓</span>
+                <span>Desde Soria: 30 minutos en coche</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 mt-1 text-emerald-600">✓</span>
+                <span>Desde Madrid: 2h 30min por A-2 y N-111</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2 mt-1 text-emerald-600">✓</span>
+                <span>Desde Zaragoza: 2h por A-2 y CL-101</span>
+              </li>
+            </ul>
+            <Link
+              href="/como-llegar"
+              className="inline-block rounded-lg bg-emerald-600 px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              Ver mapa e indicaciones
+            </Link>
+          </div>
+          <div className="rounded-lg bg-gradient-to-br from-emerald-200 to-emerald-400 p-8">
+            {/* Placeholder para mapa */}
+            <div className="flex h-full items-center justify-center text-center text-emerald-800">
+              <div>
+                <svg
+                  className="mx-auto mb-4 h-16 w-16"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <p className="font-semibold">Mapa interactivo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* Call to action */}
+      <Section>
+        <div className="rounded-2xl bg-emerald-600 px-8 py-12 text-center text-white">
+          <h2 className="mb-4 text-3xl font-bold">
+            ¿Listo para tu próxima escapada?
+          </h2>
+          <p className="mx-auto mb-8 max-w-2xl text-lg text-emerald-50">
+            Descubre todo lo que Ventosa de la Sierra tiene para ofrecerte.
+            Naturaleza, historia, gastronomía y la hospitalidad de un pueblo con
+            encanto.
           </p>
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
+            <Link
+              href="/turismo"
+              className="rounded-lg bg-white px-6 py-3 font-semibold text-emerald-600 transition-colors hover:bg-emerald-50"
+            >
+              Qué ver y hacer
+            </Link>
+            <Link
+              href="/directorio"
+              className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700"
+            >
+              Dónde dormir y comer
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </Section>
+    </>
   );
 }
