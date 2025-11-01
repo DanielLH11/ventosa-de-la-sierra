@@ -17,20 +17,20 @@ export default function Home() {
         <h2 className="mb-8 text-center text-3xl font-bold text-gray-900">
           Descubre Ventosa
         </h2>
-        <div className="grid gap-6 md:grid-cols-3">
-          <Card
-            title="Rutas y Naturaleza"
-            description="Explora nuestras rutas de senderismo y descubre paisajes únicos en la Sierra de Soria."
-            href="/turismo"
-            tag="Turismo"
-            image="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80"
-          />
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <Card
             title="Historia y Patrimonio"
             description="Conoce la iglesia de San Cristóbal y los castros celtíberos de Ventosa."
             href="/historia"
             tag="Cultura"
             image="https://images.unsplash.com/photo-1580837119756-563d608dd119?w=800&q=80"
+          />
+          <Card
+            title="Rutas y Naturaleza"
+            description="Explora nuestras rutas de senderismo y descubre paisajes únicos en la Sierra de Soria."
+            href="/turismo"
+            tag="Turismo"
+            image="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80"
           />
           <Card
             title="Agenda de Eventos"
@@ -99,15 +99,15 @@ export default function Home() {
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/turismo"
-              className="rounded-lg bg-white px-6 py-3 font-semibold text-emerald-600 transition-colors hover:bg-emerald-50"
+              className="no-underline rounded-lg bg-white px-6 py-3 font-semibold text-emerald-600 transition-colors hover:bg-emerald-50"
             >
               Qué ver y hacer
             </Link>
             <Link
-              href="/directorio"
-              className="rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700"
+              href="/como-llegar"
+              className="no-underline rounded-lg border-2 border-white px-6 py-3 font-semibold text-white transition-colors hover:bg-emerald-700"
             >
-              Dónde dormir y comer
+              Cómo llegar
             </Link>
           </div>
         </div>
