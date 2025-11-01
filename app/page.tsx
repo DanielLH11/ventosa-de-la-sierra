@@ -76,7 +76,7 @@ export default function Home() {
               Ver mapa e indicaciones
             </Link>
           </div>
-          <div className="rounded-lg bg-gradient-to-br from-emerald-200 to-emerald-400 p-8">
+          <div className="rounded-lg bg-linear-to-br from-emerald-200 to-emerald-400 p-8">
             {/* Placeholder para mapa */}
             <div className="flex h-full items-center justify-center text-center text-emerald-800">
               <div>
