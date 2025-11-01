@@ -52,7 +52,11 @@ export default function NoticiasPage() {
                 className="block overflow-hidden rounded-lg border bg-white shadow-sm transition-all hover:shadow-md"
               >
                 <div className="grid gap-6 md:grid-cols-[250px_1fr]">
-                  <div className="h-48 bg-gradient-to-br from-emerald-200 to-emerald-400 md:h-full"></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1585241936939-be4099591252?w=500&q=80"
+                    alt={noticia.titulo}
+                    className="h-48 w-full object-cover md:h-full"
+                  />
                   <div className="p-6">
                     <div className="mb-3 flex flex-wrap items-center gap-2">
                       <span

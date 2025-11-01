@@ -89,7 +89,11 @@ export default async function NoticiaDetallePage({ params }: Props) {
           </Link>
 
           <article className="overflow-hidden rounded-xl border bg-white shadow-lg">
-            <div className="h-96 bg-gradient-to-br from-emerald-200 to-emerald-400"></div>
+            <img
+              src="https://images.unsplash.com/photo-1585241936939-be4099591252?w=1200&q=80"
+              alt={noticia.titulo}
+              className="h-96 w-full object-cover"
+            />
 
             <div className="p-8">
               <div className="mb-6 flex flex-wrap items-center gap-3">
@@ -154,7 +158,11 @@ export default async function NoticiaDetallePage({ params }: Props) {
                     href={`/noticias/${otraNoticia.slug}`}
                     className="overflow-hidden rounded-lg border bg-white shadow-sm transition-shadow hover:shadow-md"
                   >
-                    <div className="h-40 bg-gradient-to-br from-emerald-200 to-emerald-400"></div>
+                    <img
+                      src="https://images.unsplash.com/photo-1585241936939-be4099591252?w=600&q=80"
+                      alt={otraNoticia.titulo}
+                      className="h-40 w-full object-cover"
+                    />
                     <div className="p-4">
                       <h4 className="mb-2 font-bold text-gray-900">
                         {otraNoticia.titulo}

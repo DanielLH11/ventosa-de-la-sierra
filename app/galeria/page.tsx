@@ -56,11 +56,14 @@ export default function GaleriaPage() {
             <div
               key={imagen.id}
               onClick={() => setImagenSeleccionada(imagen)}
-              className="group relative aspect-square cursor-pointer overflow-hidden rounded-lg bg-gradient-to-br from-emerald-200 to-emerald-400 shadow-md transition-all hover:shadow-xl"
+              className="group relative aspect-square cursor-pointer overflow-hidden rounded-lg shadow-md transition-all hover:shadow-xl"
             >
-              {/* Placeholder - aquí irían imágenes reales */}
-              <div className="h-full w-full bg-gradient-to-br from-emerald-300 to-emerald-500"></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100"></div>
+              <img
+                src={imagen.url}
+                alt={imagen.titulo}
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent opacity-0 transition-opacity group-hover:opacity-100"></div>
               <div className="absolute bottom-0 left-0 right-0 translate-y-full p-4 transition-transform group-hover:translate-y-0">
                 <h3 className="font-semibold text-white">{imagen.titulo}</h3>
                 <p className="text-sm text-white/80">
@@ -104,7 +107,11 @@ export default function GaleriaPage() {
             </svg>
           </button>
           <div className="max-w-5xl" onClick={(e) => e.stopPropagation()}>
-            <div className="aspect-video w-full rounded-lg bg-gradient-to-br from-emerald-300 to-emerald-500"></div>
+            <img
+              src={imagenSeleccionada.url}
+              alt={imagenSeleccionada.titulo}
+              className="aspect-video w-full rounded-lg object-cover"
+            />
             <div className="mt-4 text-center">
               <h3 className="text-2xl font-bold text-white">
                 {imagenSeleccionada.titulo}

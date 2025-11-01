@@ -11,73 +11,73 @@ import {
 export const eventos: Evento[] = [
   {
     id: "1",
-    slug: "fiestas-patronales-agosto",
-    titulo: "Fiestas Patronales de San Roque",
-    fecha: "2025-08-15",
+    slug: "fiestas-virgen-del-rosario",
+    titulo: "Fiestas de la Virgen del Rosario",
+    fecha: "2025-09-08",
     descripcion:
-      "Celebración de las fiestas patronales con verbena, actividades tradicionales y mucho más.",
+      "Fiestas patronales en honor a la Virgen del Rosario, el evento más importante del año en nuestro pueblo.",
     descripcionCompleta:
-      "Las Fiestas Patronales de San Roque son el evento más importante del año en Ventosa de la Sierra. Durante tres días, el pueblo se llena de música, tradición y alegría. El programa incluye misa solemne, procesión, juegos tradicionales para los más pequeños, partidos de pelota, verbena popular con orquesta, y la tradicional comida popular en la plaza del pueblo. Un momento perfecto para conocer nuestras costumbres y disfrutar del ambiente festivo que caracteriza a nuestro pueblo.",
-    lugar: "Plaza Mayor",
+      "Las Fiestas de la Virgen del Rosario son la celebración más importante de Ventosa de la Sierra. Durante los días 8 y 9 de septiembre, el pueblo se llena de vida con la llegada de vecinos, familiares y visitantes. El programa incluye misa solemne en la iglesia de San Cristóbal, procesión por las calles del pueblo, juegos tradicionales, comida de hermandad, verbena con orquesta y actividades para todas las edades. Es el momento del año en que nuestra pequeña comunidad de 14 habitantes se multiplica y revive las tradiciones que nos unen.",
+    lugar: "Iglesia de San Cristóbal y plaza del pueblo",
     categoria: "fiesta",
   },
   {
     id: "2",
-    slug: "ruta-micologica-octubre",
-    titulo: "Ruta Micológica Guiada",
-    fecha: "2025-10-20",
+    slug: "ruta-castros-celtiberos",
+    titulo: "Visita Guiada a los Castros Celtíberos",
+    fecha: "2025-10-15",
     descripcion:
-      "Descubre las setas de nuestros bosques con expertos micólogos.",
+      "Descubre el Castro de El Castillejo y Los Villares, vestigios de nuestro pasado celtíbero.",
     descripcionCompleta:
-      "Una jornada perfecta para los amantes de la naturaleza y la micología. Acompañados por expertos micólogos, recorreremos los bosques de pinos y robles de la zona en busca de las especies de setas más características del otoño soriano. Aprenderemos a identificarlas, conoceremos sus propiedades y hablaremos sobre la importancia de la recolección sostenible. La ruta incluye degustación de productos micológicos al finalizar. Plazas limitadas, inscripción previa necesaria.",
-    lugar: "Centro de Interpretación",
+      "Una jornada para conocer el rico patrimonio arqueológico de Ventosa de la Sierra. Visitaremos el Castro de El Castillejo, situado a 1.333 metros de altitud sobre un cerro cónico que domina la cabecera del río Zarranzano, y el Castro de Los Villares, que domina el valle de Arévalo. Acompañados por un arqueólogo experto, descubriremos cómo vivían los celtíberos hace más de 2.000 años, observaremos los restos de murallas y viviendas, y disfrutaremos de vistas espectaculares de la sierra. Ruta de dificultad media, 3 horas de duración. Inscripción previa necesaria en el Ayuntamiento de Arévalo de la Sierra.",
+    lugar: "Castro de El Castillejo",
     categoria: "cultural",
   },
   {
     id: "3",
-    slug: "mercado-medieval-junio",
-    titulo: "Mercado Medieval",
-    fecha: "2025-06-28",
-    descripcion: "Viaje al pasado con nuestro tradicional mercado medieval.",
+    slug: "senderismo-sierra-soria",
+    titulo: "Ruta de Senderismo por Tierras Altas",
+    fecha: "2025-06-22",
+    descripcion: "Recorrido guiado por los paisajes más espectaculares de la Sierra de Soria.",
     descripcionCompleta:
-      "El casco histórico de Ventosa se transforma durante un fin de semana completo en un auténtico mercado medieval. Artesanos, trovadores, malabares y puestos de productos tradicionales llenan nuestras calles. Podrás disfrutar de espectáculos de cetrería, combates de esgrima histórica, talleres infantiles, y degustar comida medieval. Los vecinos nos vestimos de época y el ambiente festivo inunda cada rincón del pueblo. Una experiencia única para toda la familia.",
-    lugar: "Casco histórico",
-    categoria: "cultural",
+      "Jornada de senderismo por la comarca de Tierras Altas y El Valle, una de las zonas más elevadas y mejor conservadas de la provincia de Soria. Desde Ventosa de la Sierra, situada a 1.243 metros de altitud, recorreremos senderos tradicionales que conectan con las localidades vecinas, atravesando pinares, pastizales de alta montaña y afloramientos rocosos. La ruta ofrece vistas panorámicas impresionantes del sistema Ibérico y nos permitirá observar la flora y fauna característica de la alta montaña soriana. Incluye picnic campestre con productos locales. Nivel: medio-alto. Distancia: 14 km. Inscripción en el Ayuntamiento de Arévalo de la Sierra: 975 397 001.",
+    lugar: "Salida desde la plaza del pueblo",
+    categoria: "deportivo",
   },
 ];
 
 export const noticias: Noticia[] = [
   {
     id: "1",
-    slug: "nuevas-rutas-senalizadas",
-    titulo: "Inauguradas 3 nuevas rutas de senderismo señalizadas",
+    slug: "recuperacion-castros-celtiberos",
+    titulo: "Proyecto de puesta en valor de los castros celtíberos",
     fecha: "2025-10-15",
     resumen:
-      "El ayuntamiento ha finalizado las obras de señalización de tres nuevas rutas que conectan con parajes naturales únicos.",
+      "El Ayuntamiento de Arévalo de la Sierra impulsa la recuperación y señalización de los yacimientos arqueológicos de Ventosa.",
     contenido:
-      "El Ayuntamiento de Ventosa de la Sierra ha inaugurado oficialmente tres nuevas rutas de senderismo perfectamente señalizadas que permitirán a vecinos y visitantes disfrutar de nuestro incomparable entorno natural de forma segura y organizada.\n\nLas rutas son: Ruta del Barranco (5,2 km), Ruta de los Miradores (7,8 km) y Ruta del Alto del Pinar (12,4 km). Todas ellas cuentan con paneles informativos al inicio explicando la flora, fauna e historia de cada recorrido, así como postes direccionales cada 500 metros.\n\nEste proyecto, financiado por fondos LEADER de la Unión Europea y la Diputación de Soria, supone una inversión de 45.000 euros y busca potenciar el turismo sostenible en nuestra localidad. Ya están disponibles los tracks GPS descargables en nuestra página web.",
-    categoria: "turismo",
+      "El Ayuntamiento de Arévalo de la Sierra, en colaboración con la Diputación de Soria y la Junta de Castilla y León, ha puesto en marcha un ambicioso proyecto para poner en valor el rico patrimonio arqueológico de Ventosa de la Sierra.\n\nEl proyecto incluye la señalización y acondicionamiento de los dos castros celtíberos de la localidad: El Castillejo, situado a 1.333 metros de altitud y que domina la cabecera del río Zarranzano, y Los Villares, que ofrece vistas privilegiadas sobre el valle de Arévalo. Ambos yacimientos datan de la Edad del Hierro y constituyen importantes vestigios de la presencia celtíbera en la Sierra de Soria.\n\nLas actuaciones incluyen la creación de senderos de acceso, paneles interpretativos, consolidación de estructuras visibles y la elaboración de material divulgativo. La inversión total asciende a 65.000 euros, financiados en un 70% por fondos FEDER. Se espera que los trabajos finalicen en primavera de 2026 y que contribuyan a impulsar el turismo cultural en la zona.",
+    categoria: "cultura",
   },
   {
     id: "2",
-    slug: "restauracion-iglesia-finalizada",
-    titulo: "Concluyen las obras de restauración de la Iglesia de San Miguel",
+    slug: "restauracion-iglesia-san-cristobal",
+    titulo: "Restauración de la Iglesia de San Cristóbal",
     fecha: "2025-09-10",
     resumen:
-      "Después de 8 meses de trabajos, nuestra iglesia románica luce esplendorosa.",
+      "Concluyen los trabajos de consolidación de nuestra iglesia parroquial del siglo XVIII.",
     contenido:
-      "Han finalizado los trabajos de restauración integral de la Iglesia de San Miguel, joya del románico soriano y emblema de nuestro patrimonio histórico-artístico.\n\nLas obras, que han durado ocho meses, han incluido la consolidación de la torre campanario, la restauración de las pinturas murales del siglo XV descubiertas en el ábside, la reparación de la cubierta y el refuerzo de los muros perimetrales. También se ha mejorado la iluminación interior con tecnología LED que resalta los elementos arquitectónicos más relevantes.\n\nLa inversión total ha sido de 320.000 euros, financiados por la Junta de Castilla y León y el Obispado de Osma-Soria. La iglesia reabre al culto y a las visitas turísticas este mismo fin de semana con un horario ampliado. Se organizarán visitas guiadas gratuitas durante todo el mes de septiembre.",
+      "Han finalizado los trabajos de restauración de la Iglesia de San Cristóbal, el principal templo de Ventosa de la Sierra, que fue reformado en el siglo XVIII sobre una construcción anterior.\n\nLas obras, que han durado seis meses, han incluido la reparación de la cubierta que presentaba filtraciones, la consolidación de los muros exteriores, la restauración de la puerta principal de madera y el saneamiento de humedades en el interior. También se ha mejorado la instalación eléctrica y se han restaurado varios elementos del mobiliario litúrgico.\n\nLa inversión total ha sido de 48.000 euros, financiados por la Diputación de Soria, el Obispado de Osma-Soria y el Ayuntamiento de Arévalo de la Sierra. Estas actuaciones garantizan la conservación de este templo que es el corazón de nuestra pequeña comunidad y donde se celebran las fiestas de la Virgen del Rosario cada septiembre. La iglesia ha reabierto al culto y continuará acogiendo los actos religiosos y culturales de la localidad.",
     categoria: "cultura",
   },
   {
     id: "3",
-    slug: "fibra-optica-disponible",
-    titulo: "Ventosa ya cuenta con fibra óptica de alta velocidad",
+    slug: "conectividad-tierras-altas",
+    titulo: "Mejora de las comunicaciones en Tierras Altas",
     fecha: "2025-08-20",
     resumen:
-      "La digitalización llega a nuestro pueblo: 100% de cobertura de fibra óptica.",
+      "La Diputación invierte en mejorar las carreteras que conectan los pueblos de la comarca.",
     contenido:
-      "Ventosa de la Sierra entra en la era digital con la finalización del despliegue de fibra óptica en todo el municipio. A partir de ahora, el 100% de viviendas y negocios pueden contratar conexiones de hasta 1Gbps de velocidad simétrica.\n\nEsta mejora es fundamental para frenar la despoblación, permitir el teletrabajo, mejorar la calidad de vida de los vecinos y atraer nuevos residentes y emprendedores. Varias operadoras ofrecen ya sus servicios en la localidad con tarifas competitivas.\n\nEl proyecto ha sido posible gracias al Plan de Conectividad del Gobierno de España y supone una inversión de 180.000 euros. El alcalde ha destacado que 'este es un paso histórico para Ventosa que nos pone en igualdad de condiciones con cualquier ciudad en cuanto a conectividad digital'.",
+      "La Diputación Provincial de Soria ha anunciado una inversión de 320.000 euros para mejorar las carreteras que conectan las localidades de la comarca de Tierras Altas y El Valle, entre las que se encuentra Ventosa de la Sierra.\n\nLas actuaciones incluyen el refuerzo del firme, mejora del drenaje, señalización vertical y horizontal, y la instalación de quitamiedos en los tramos más sinuosos. Los trabajos se centrarán principalmente en la SO-132 y los caminos vecinales que comunican Ventosa con Arévalo de la Sierra y otras localidades vecinas.\n\nEstas mejoras son fundamentales para nuestra comarca, situada en una de las zonas más elevadas de la provincia (entre 1.200 y 1.400 metros de altitud), donde las condiciones climáticas invernales pueden dificultar las comunicaciones. Los vecinos llevan años reclamando estas actuaciones, especialmente importantes para garantizar el acceso de servicios básicos y mejorar la seguridad vial.\n\nLos trabajos comenzarán en primavera de 2026 y se ejecutarán en dos fases para no interrumpir completamente el tráfico. El presidente de la Diputación ha destacado el compromiso de la institución con el mantenimiento de las infraestructuras en las zonas rurales para garantizar la calidad de vida de sus habitantes.",
     categoria: "actualidad",
   },
 ];
@@ -246,39 +246,75 @@ export const negocios: Negocio[] = [
 export const imagenesGaleria: ImagenGaleria[] = [
   {
     id: "1",
-    titulo: "Vista del pueblo al amanecer",
-    url: "/images/galeria/pueblo-amanecer.jpg",
+    titulo: "Vista panorámica de Ventosa de la Sierra",
+    url: "https://images.unsplash.com/photo-1589640809518-a61a16e1b3f1?w=1200&q=80",
     categoria: "paisajes",
   },
   {
     id: "2",
-    titulo: "Iglesia de San Miguel",
-    url: "/images/galeria/iglesia.jpg",
+    titulo: "Iglesia de San Cristóbal",
+    url: "https://images.unsplash.com/photo-1580837119756-563d608dd119?w=1200&q=80",
     categoria: "patrimonio",
   },
   {
     id: "3",
-    titulo: "Ruta del Barranco en otoño",
-    url: "/images/galeria/ruta-barranco.jpg",
+    titulo: "Paisajes de la Sierra de Soria en otoño",
+    url: "https://images.unsplash.com/photo-1551632811-561732d1e306?w=1200&q=80",
     categoria: "paisajes",
   },
   {
     id: "4",
-    titulo: "Fiestas patronales",
-    url: "/images/galeria/fiestas.jpg",
+    titulo: "Fiesta de la Virgen del Rosario",
+    url: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1200&q=80",
     categoria: "eventos",
   },
   {
     id: "5",
-    titulo: "Cigüeña en el campanario",
-    url: "/images/galeria/ciguena.jpg",
+    titulo: "Flora de alta montaña",
+    url: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200&q=80",
     categoria: "flora-fauna",
   },
   {
     id: "6",
-    titulo: "Puesta de sol desde el Mirador del Águila",
-    url: "/images/galeria/puesta-sol.jpg",
+    titulo: "Puesta de sol en Tierras Altas",
+    url: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
     categoria: "paisajes",
+  },
+  {
+    id: "7",
+    titulo: "Castro de El Castillejo",
+    url: "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80",
+    categoria: "patrimonio",
+  },
+  {
+    id: "8",
+    titulo: "Pinares de la Sierra",
+    url: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80",
+    categoria: "paisajes",
+  },
+  {
+    id: "9",
+    titulo: "Arquitectura tradicional soriana",
+    url: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1200&q=80",
+    categoria: "patrimonio",
+  },
+  {
+    id: "10",
+    titulo: "Rapaces de la Sierra de Soria",
+    url: "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=1200&q=80",
+    categoria: "flora-fauna",
+  },
+  {
+    id: "11",
+    titulo: "Cielo estrellado en la montaña",
+    url: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1200&q=80",
+    categoria: "paisajes",
+  },
+  {
+    id: "12",
+    titulo: "Procesión en las fiestas patronales",
+    url: "https://images.unsplash.com/photo-1529511582893-2d7e684dd4a6?w=1200&q=80",
+    categoria: "eventos",
   },
 ];
 

@@ -94,20 +94,24 @@ export default function HistoriaPage() {
             </h2>
             <div className="space-y-8">
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
-                <div className="h-64 bg-gradient-to-br from-amber-200 to-amber-400"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1580837119756-563d608dd119?w=1200&q=80"
+                  alt="Iglesia de San Cristóbal"
+                  className="h-64 w-full object-cover"
+                />
                 <div className="p-6">
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">
-                    Iglesia de San Miguel Arcángel
+                    Iglesia de San Cristóbal
                   </h3>
                   <p className="mb-4 text-sm text-emerald-600">
-                    Románico - Siglo XII
+                    Reformada en el siglo XVIII
                   </p>
                   <p className="mb-4 text-gray-600">
-                    Joya del románico soriano con elementos únicos. Destaca su
-                    portada sur con arquivoltas decoradas, el ábside semicircular
-                    con canecillos figurados y las pinturas murales del siglo XV
-                    recientemente restauradas. La torre campanario, de tres
-                    cuerpos, es visible desde kilómetros a la redonda.
+                    La Iglesia de San Cristóbal es el principal templo de Ventosa de la Sierra.
+                    Reformada en el siglo XVIII sobre una construcción anterior, conserva elementos 
+                    arquitectónicos de gran valor. Su interior alberga mobiliario litúrgico tradicional 
+                    y es el centro de las celebraciones religiosas del pueblo, especialmente durante 
+                    las fiestas de la Virgen del Rosario en septiembre.
                   </p>
                   <div className="rounded-lg bg-gray-50 p-4">
                     <p className="text-sm font-semibold text-gray-900">
@@ -124,54 +128,70 @@ export default function HistoriaPage() {
               </div>
 
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
-                <div className="h-64 bg-gradient-to-br from-stone-200 to-stone-400"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?w=1200&q=80"
+                  alt="Castro de El Castillejo"
+                  className="h-64 w-full object-cover"
+                />
                 <div className="p-6">
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">
-                    Ermita de la Virgen del Camino
+                    Castro de El Castillejo
                   </h3>
                   <p className="mb-4 text-sm text-emerald-600">
-                    Barroco - Siglo XVII
+                    Edad del Hierro - Celtíbero
                   </p>
                   <p className="mb-4 text-gray-600">
-                    Pequeña ermita situada en un alto junto al camino que
-                    antiguamente llevaba a Soria. Es lugar de romería cada año
-                    el primer domingo de septiembre. En su interior se conserva
-                    una talla policromada de la Virgen del siglo XVI.
+                    Situado sobre un cerro cónico a 1.333 metros de altitud, el Castro de El Castillejo
+                    domina la cabecera del río Zarranzano. Este yacimiento arqueológico es un importante
+                    vestigio de la presencia celtíbera en la Sierra de Soria. Conserva restos de
+                    murallas y estructuras de viviendas que permiten comprender cómo vivían nuestros
+                    antepasados hace más de 2.000 años.
                   </p>
                 </div>
               </div>
 
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
-                <div className="h-64 bg-gradient-to-br from-slate-200 to-slate-400"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=1200&q=80"
+                  alt="Castro de Los Villares"
+                  className="h-64 w-full object-cover"
+                />
                 <div className="p-6">
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">
-                    Puente Medieval
+                    Castro de Los Villares
                   </h3>
                   <p className="mb-4 text-sm text-emerald-600">
-                    Medieval - Siglo XIV
+                    Edad del Hierro - Celtíbero
                   </p>
                   <p className="mb-4 text-gray-600">
-                    Puente de piedra de un solo ojo sobre el arroyo de Ventosa.
-                    Formaba parte de la red de caminos medievales que cruzaban
-                    la sierra. Recientemente consolidado, es punto de paso de
-                    varias rutas de senderismo.
+                    Ubicado 300 metros al oeste del pueblo, el Castro de Los Villares domina
+                    estratégicamente el valle de Arévalo. Este poblado celtíbero fortificado
+                    es testimonio de la importancia que tuvo esta zona en la antigüedad.
+                    Las vistas desde el castro son espectaculares y permiten comprender su
+                    valor estratégico defensivo.
                   </p>
                 </div>
               </div>
 
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
-                <div className="h-64 bg-gradient-to-br from-green-200 to-green-400"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1589640809518-a61a16e1b3f1?w=1200&q=80"
+                  alt="Paisaje de Ventosa"
+                  className="h-64 w-full object-cover"
+                />
                 <div className="p-6">
                   <h3 className="mb-2 text-2xl font-bold text-gray-900">
-                    Rollo Jurisdiccional
+                    Arquitectura Popular
                   </h3>
                   <p className="mb-4 text-sm text-emerald-600">
-                    Siglo XVI
+                    Siglos XVIII-XIX
                   </p>
                   <p className="mb-4 text-gray-600">
-                    Picota o rollo situado en la antigua plaza que simbolizaba
-                    la jurisdicción del señorío. Es uno de los mejor conservados
-                    de la provincia, con escudo nobiliario y remate piramidal.
+                    Ventosa conserva ejemplos de arquitectura tradicional soriana
+                    adaptada a la alta montaña. Casas de piedra y madera, con grandes
+                    muros para protegerse del frío invernal característico de esta zona,
+                    situada a más de 1.200 metros de altitud. El conjunto urbano se adapta
+                    a la topografía del terreno creando un paisaje armonioso.
                   </p>
                 </div>
               </div>

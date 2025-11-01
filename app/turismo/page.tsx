@@ -103,7 +103,11 @@ export default function TurismoPage() {
               key={ruta.id}
               className="overflow-hidden rounded-lg border bg-white shadow-sm transition-shadow hover:shadow-md"
             >
-              <div className="h-48 bg-gradient-to-br from-green-200 to-green-400"></div>
+              <img
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80"
+                alt={ruta.nombre}
+                className="h-48 w-full object-cover"
+              />
               <div className="p-6">
                 <div className="mb-3 flex items-center justify-between">
                   <h3 className="text-xl font-bold text-gray-900">
@@ -213,7 +217,11 @@ export default function TurismoPage() {
               key={alojamiento.id}
               className="overflow-hidden rounded-lg border bg-white shadow-sm transition-shadow hover:shadow-md"
             >
-              <div className="h-40 bg-gradient-to-br from-blue-200 to-blue-400"></div>
+              <img
+                src="https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&q=80"
+                alt={alojamiento.nombre}
+                className="h-40 w-full object-cover"
+              />
               <div className="p-5">
                 <h3 className="mb-2 text-lg font-bold text-gray-900">
                   {alojamiento.nombre}
@@ -318,7 +326,11 @@ export default function TurismoPage() {
               key={restaurante.id}
               className="overflow-hidden rounded-lg border bg-white shadow-sm transition-shadow hover:shadow-md"
             >
-              <div className="h-40 bg-gradient-to-br from-orange-200 to-orange-400"></div>
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80"
+                alt={restaurante.nombre}
+                className="h-40 w-full object-cover"
+              />
               <div className="p-5">
                 <h3 className="mb-2 text-lg font-bold text-gray-900">
                   {restaurante.nombre}

@@ -90,7 +90,11 @@ export default async function EventoDetallePage({ params }: Props) {
           </Link>
 
           <div className="overflow-hidden rounded-xl border bg-white shadow-lg">
-            <div className="h-96 bg-gradient-to-br from-purple-200 to-purple-400"></div>
+            <img
+              src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=1200&q=80"
+              alt={evento.titulo}
+              className="h-96 w-full object-cover"
+            />
 
             <div className="p-8">
               <div className="mb-6 flex flex-wrap items-center gap-3">

@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Hero
         title="Bienvenido a Ventosa de la Sierra"
-        subtitle="Descubre un rincón único en la provincia de Soria, donde naturaleza, historia y tradición se encuentran"
+        subtitle="Pequeño pueblo a 1.243 metros de altitud en la comarca de Tierras Altas. Descubre nuestros castros celtíberos, naturaleza y tradiciones"
         cta={{ text: "Planifica tu visita", href: "/turismo" }}
       />
 
@@ -23,21 +23,21 @@ export default function Home() {
             description="Explora nuestras rutas de senderismo y descubre paisajes únicos en la Sierra de Soria."
             href="/turismo"
             tag="Turismo"
-            image="/images/rutas.jpg"
+            image="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80"
           />
           <Card
             title="Historia y Patrimonio"
-            description="Conoce nuestra iglesia románica y el rico patrimonio histórico de Ventosa."
+            description="Conoce la iglesia de San Cristóbal y los castros celtíberos de Ventosa."
             href="/historia"
             tag="Cultura"
-            image="/images/iglesia.jpg"
+            image="https://images.unsplash.com/photo-1580837119756-563d608dd119?w=800&q=80"
           />
           <Card
             title="Agenda de Eventos"
             description="Descubre las fiestas, eventos culturales y actividades que organizamos."
             href="/agenda"
             tag="Eventos"
-            image="/images/eventos.jpg"
+            image="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80"
           />
         </div>
       </Section>
@@ -50,23 +50,22 @@ export default function Home() {
               Cómo llegar
             </h2>
             <p className="mb-4 text-gray-600">
-              Ventosa de la Sierra se encuentra en plena Sierra de Soria, a tan
-              solo 25 km de la capital soriana. Un lugar fácilmente accesible
-              por carretera y bien comunicado con las principales ciudades de la
-              región.
+              Ventosa de la Sierra es una pequeña localidad de 14 habitantes situada 
+              en el municipio de Arévalo de la Sierra, en la comarca de Tierras Altas 
+              y El Valle, una de las zonas más elevadas de Soria (1.243m de altitud).
             </p>
             <ul className="mb-6 space-y-2 text-gray-600">
               <li className="flex items-start">
                 <span className="mr-2 mt-1 text-emerald-600">✓</span>
-                <span>Desde Soria: 30 minutos en coche</span>
+                <span>Desde Soria capital: 40 km (45 minutos)</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2 mt-1 text-emerald-600">✓</span>
-                <span>Desde Madrid: 2h 30min por A-2 y N-111</span>
+                <span>Desde Madrid: 220 km (2h 45min por A-2)</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2 mt-1 text-emerald-600">✓</span>
-                <span>Desde Zaragoza: 2h por A-2 y CL-101</span>
+                <span>Desde Zaragoza: 180 km (2h por A-2)</span>
               </li>
             </ul>
             <Link
@@ -76,32 +75,12 @@ export default function Home() {
               Ver mapa e indicaciones
             </Link>
           </div>
-          <div className="rounded-lg bg-linear-to-br from-emerald-200 to-emerald-400 p-8">
-            {/* Placeholder para mapa */}
-            <div className="flex h-full items-center justify-center text-center text-emerald-800">
-              <div>
-                <svg
-                  className="mx-auto mb-4 h-16 w-16"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                </svg>
-                <p className="font-semibold">Mapa interactivo</p>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-lg">
+            <img
+              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&q=80"
+              alt="Mapa de Ventosa de la Sierra"
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
       </Section>
@@ -113,9 +92,9 @@ export default function Home() {
             ¿Listo para tu próxima escapada?
           </h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-emerald-50">
-            Descubre todo lo que Ventosa de la Sierra tiene para ofrecerte.
-            Naturaleza, historia, gastronomía y la hospitalidad de un pueblo con
-            encanto.
+            Descubre Ventosa de la Sierra: castros celtíberos milenarios, paisajes 
+            de alta montaña, fiestas tradicionales y la autenticidad de un pequeño 
+            pueblo soriano de 14 habitantes que conserva su esencia.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
             <Link

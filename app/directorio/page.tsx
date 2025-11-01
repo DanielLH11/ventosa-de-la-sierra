@@ -97,7 +97,11 @@ export default function DirectorioPage() {
                 key={negocio.id}
                 className="overflow-hidden rounded-lg border bg-white shadow-sm transition-shadow hover:shadow-md"
               >
-                <div className="h-48 bg-gradient-to-br from-cyan-200 to-cyan-400"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80"
+                  alt={negocio.nombre}
+                  className="h-48 w-full object-cover"
+                />
                 <div className="p-5">
                   <div className="mb-2">
                     <span className="inline-block rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
@@ -115,7 +119,7 @@ export default function DirectorioPage() {
                     {negocio.direccion && (
                       <div className="flex items-start">
                         <svg
-                          className="mr-2 mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600"
+                          className="mr-2 mt-0.5 h-4 w-4 shrink-0 text-emerald-600"
                           fill="none"
                           stroke="currentColor"
                           viewBox="0 0 24 24"

@@ -21,9 +21,12 @@ export default function Card({
   const content = (
     <>
       {image && (
-        <div className="relative h-48 w-full overflow-hidden bg-gradient-to-br from-emerald-100 to-emerald-200">
-          {/* Placeholder - aquí irían imágenes reales */}
-          <div className="h-full w-full bg-gradient-to-br from-emerald-200 to-emerald-300" />
+        <div className="relative h-48 w-full overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+          />
         </div>
       )}
       <div className="p-6">

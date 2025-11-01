@@ -12,9 +12,9 @@ export default function Footer() {
               Ventosa de la Sierra
             </h3>
             <p className="mt-4 text-sm text-gray-600">
-              Municipio de la provincia de Soria, Castilla y León. Un lugar
-              único para descubrir la naturaleza, historia y tradiciones de la
-              Sierra de Soria.
+              Localidad del municipio de Arévalo de la Sierra, en la provincia de Soria, Castilla y León. 
+              Situada a 1.243 metros de altitud en la comarca de Tierras Altas y El Valle. 
+              Un lugar único para descubrir la naturaleza, historia celtíbera y las tradiciones de la alta montaña soriana.
             </p>
           </div>
 
@@ -59,23 +59,23 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-gray-900">Contacto</h4>
             <ul className="mt-4 space-y-2 text-sm text-gray-600">
-              <li>Ayuntamiento de Ventosa</li>
+              <li>Ayuntamiento de Arévalo de la Sierra</li>
               <li>Plaza Mayor, 1</li>
-              <li>42149 Soria</li>
+              <li>42146 Arévalo de la Sierra, Soria</li>
               <li className="mt-3">
                 <a
-                  href="tel:+34975123456"
+                  href="tel:+34975397001"
                   className="hover:text-emerald-600"
                 >
-                  Tel: 975 123 456
+                  Tel: 975 397 001
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@ventosadelasierra.es"
+                  href="mailto:arevalodelasierra@dipsoria.es"
                   className="hover:text-emerald-600"
                 >
-                  info@ventosadelasierra.es
+                  arevalodelasierra@dipsoria.es
                 </a>
               </li>
             </ul>

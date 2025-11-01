@@ -15,7 +15,7 @@ interface HeroProps {
 export default function Hero({
   title,
   subtitle,
-  image = "/images/hero-ventosa.jpg",
+  image = "https://images.unsplash.com/photo-1589640809518-a61a16e1b3f1?w=1920&q=80",
   cta,
   small = false,
 }: HeroProps) {
@@ -23,13 +23,16 @@ export default function Hero({
 
   return (
     <div className={`relative ${heightClass} w-full overflow-hidden`}>
-      <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/90 to-emerald-700/70 z-10" />
+      <div className="absolute inset-0 bg-linear-to-r from-emerald-900/90 to-emerald-700/70 z-10" />
       <div className="absolute inset-0 bg-black/20 z-10" />
 
-      {/* Background Image - placeholder con color */}
-      <div className="absolute inset-0 bg-emerald-800">
-        {/* Aquí irían las imágenes reales */}
-        <div className="h-full w-full bg-gradient-to-br from-emerald-600 to-emerald-900" />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src={image}
+          alt={title}
+          className="h-full w-full object-cover"
+        />
       </div>
 
       <div className="relative z-20 mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center sm:px-6 lg:px-8">

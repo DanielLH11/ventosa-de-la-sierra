@@ -20,7 +20,12 @@ export default function ComoLlegarPage() {
         <div className="mx-auto max-w-5xl">
           {/* Mapa placeholder */}
           <div className="mb-12 overflow-hidden rounded-xl shadow-lg">
-            <div className="flex h-96 items-center justify-center bg-gradient-to-br from-emerald-100 to-emerald-300">
+            <img
+              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&q=80"
+              alt="Mapa de Ventosa de la Sierra"
+              className="h-96 w-full object-cover"
+            />
+            <div className="flex h-96 items-center justify-center bg-emerald-900/10 relative -mt-96">
               <div className="text-center text-emerald-800">
                 <svg
                   className="mx-auto mb-4 h-20 w-20"

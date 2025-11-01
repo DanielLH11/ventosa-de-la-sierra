@@ -52,7 +52,11 @@ export default function AgendaPage() {
                 className="block overflow-hidden rounded-lg border bg-white shadow-sm transition-all hover:shadow-md"
               >
                 <div className="grid gap-6 md:grid-cols-[200px_1fr]">
-                  <div className="h-48 bg-gradient-to-br from-purple-200 to-purple-400 md:h-full"></div>
+                  <img
+                    src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&q=80"
+                    alt={evento.titulo}
+                    className="h-48 w-full object-cover md:h-full"
+                  />
                   <div className="p-6">
                     <div className="mb-3 flex flex-wrap items-center gap-2">
                       <span
